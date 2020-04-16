@@ -62,6 +62,7 @@ footer {
     font-size: 30px;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .linkTextPresentScript {
@@ -120,12 +121,41 @@ footer {
     margin-top: 60px;
 }
 
+.imageStudyWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.imageStudy {
+    width: 50px;
+    margin-top: 30px;
+}
+
+.imageStudyText {
+    padding-top: 10px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 .mainTextWrap {
     z-index: 100;
 }
 
 .mainText {
     width: 100%;
+    padding-top: 10px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.mainTextList {
     padding-top: 10px;
     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -210,6 +240,10 @@ footer {
         width: 150px;
     }
 
+    .imageStudyWrap {
+        flex-direction: column;
+    }
+
     .leftBlock {
         width: 60%;
         height: 300px;
@@ -253,6 +287,6 @@ footer {
     }
 
     .linkText {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
