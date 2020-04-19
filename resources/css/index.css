@@ -26,6 +26,10 @@ a:hover {
     color: darkred;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 ul {
     margin-top: -5px;
     margin-left: 20px;
@@ -40,6 +44,7 @@ footer {
     height: 70px;
     color: white;
     text-align: center;
+    font-family: "Times New Roman", serif;
 }
 
 .header {
@@ -121,12 +126,13 @@ footer {
     margin-top: 60px;
 }
 
-.imageStudyWrap{
+.imageStudyWrap {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 50px;
 }
+
 .imageStudy {
     width: 50px;
     margin-top: 30px;
@@ -164,6 +170,30 @@ footer {
     letter-spacing: 1px;
 }
 
+.mainPhotoWrap {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.photo {
+    width: 90%;
+}
+
+.photoText {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.photoIDModal {
+    width: 100%;
+    border: 1px solid gray;
+}
+
 .linksWrap {
     display: flex;
     flex-direction: row;
@@ -194,7 +224,7 @@ footer {
     /*background: #eee5d4;*/
 }
 
-.firstLink a{
+.firstLink a {
     text-decoration: none;
 }
 
@@ -267,6 +297,19 @@ footer {
     .mainText {
         width: 100%;
         font-size: 16px;
+    }
+
+    .mainPhotoWrap {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .photo {
+        margin-bottom: 30px;
     }
 
     .map {
