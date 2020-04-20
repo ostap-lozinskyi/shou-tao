@@ -179,6 +179,10 @@ footer {
     width: 50%;
 }
 
+.modal-lg {
+    max-width: 60%;
+}
+
 .photo {
     width: 90%;
 }
@@ -187,6 +191,15 @@ footer {
     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align: center;
+    margin-top: 5px;
+}
+
+.photoTextModal {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .photoIDModal {
@@ -308,7 +321,7 @@ footer {
         width: 100%;
     }
 
-    .photo {
+    .photoText {
         margin-bottom: 30px;
     }
 
