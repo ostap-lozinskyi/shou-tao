@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: #664d46;
+    color: #3a1700;
 }
 
 a:hover {
@@ -82,6 +82,7 @@ footer {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #3a1700;
 }
 
 .linkTextPresentScript {
