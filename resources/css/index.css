@@ -149,11 +149,11 @@ footer {
 }
 
 .imageStudyWrap a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .imageStudyWrap a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .imageStudy {
@@ -311,6 +311,14 @@ footer {
 
     .imageStudyWrap {
         flex-direction: column;
+    }
+
+    .imageStudy {
+        width: 60px;
+    }
+
+    .imageStudyText {
+        font-size: 16px;
     }
 
     .leftBlock {
