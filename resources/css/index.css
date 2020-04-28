@@ -85,6 +85,10 @@ footer {
     color: #3a1700;
 }
 
+.presentScript a{
+    text-decoration: none;
+}
+
 .linkTextPresentScript {
     font-family: 'PresentScript Cyrillic', serif;
     font-size: 24px;
@@ -235,40 +239,41 @@ footer {
 
 .linksWrap {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.links {
-    width: 30%;
-    border: 1px solid #664d46;
-    border-radius: 10px;
-    margin-top: 15px;
-    background: #eee5d4;
-}
-
-.links a {
-    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .firstLink {
     display: flex;
     flex-direction: row;
-    width: 288px;
-    background: #eee5d4 url("../../resources/images/mamleev.png") no-repeat left bottom;
+    width: 315px;
+    background: #eee5d4 url("../../resources/images/medvedev.png") no-repeat left bottom;
     border: 1px solid #664d46;
     border-radius: 10px;
     margin-top: 15px;
-    /*padding: 0;*/
-    /*background: #eee5d4;*/
 }
 
 .firstLink a {
     text-decoration: none;
 }
 
+.secondLink {
+    display: flex;
+    flex-direction: row;
+    width: 315px;
+    background: #eee5d4 url("../../resources/images/mamleev.png") no-repeat left bottom;
+    border: 1px solid #664d46;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.secondLink a {
+    text-decoration: none;
+}
+
 .textTeacher {
-    width: 225px;
+    width: 255px;
     margin-left: 61px;
 }
 
@@ -281,6 +286,31 @@ footer {
 
 .mapMini {
     display: none;
+}
+
+.contactItem {
+    display: flex;
+}
+.contactImage {
+    width: 120px;
+    padding-right: 10px;
+}
+
+.contactText {
+    width: 100%;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.contactText:hover {
+    text-decoration: underline;
+}
+
+.contactText a{
+    text-decoration: none;
 }
 
 
@@ -371,10 +401,6 @@ footer {
     .linksWrap {
         flex-direction: column;
         align-items: center;
-    }
-
-    .links {
-        width: 80%;
     }
 
     .linkText {
