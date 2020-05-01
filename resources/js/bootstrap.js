@@ -27,7 +27,6 @@
 
 
     var width = $(window).width();
-    if (width > 768) {
         e = e && e.hasOwnProperty("default") ? e.default : e, n = n && n.hasOwnProperty("default") ? n.default : n;
         var o, a, l, h, c, u, f, d, _, g, p, m, v, E, T, y, C, I, A, b, D, S, w, N, O, k, P = function (t) {
                 var e = !1;
@@ -1219,7 +1218,6 @@
                     return t.fn.tab = i, v._jQueryInterface
                 }, v
             }(e);
-    }
 
 
     !function (t) {

@@ -3489,12 +3489,12 @@ tbody.collapse.show {
 
 .close {
     float: right;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
+    font-size: 30px;
+    font-weight: bold;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    opacity: .5
+    opacity: .5;
+    margin-top: -10px;
 }
 
 .close:focus, .close:hover {
@@ -3577,7 +3577,6 @@ button.close {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3rem;
     outline: 0
 }
 
@@ -3630,7 +3629,7 @@ button.close {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1rem
+    padding: 8px 8px 0 8px;
 }
 
 .modal-footer {
