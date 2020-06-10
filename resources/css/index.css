@@ -351,6 +351,23 @@ footer {
     text-decoration: none;
 }
 
+.navigation {
+    width: 100%;
+    padding-top: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: darkred;
+    line-height: 24px;
+    text-align: left;
+}
+
+.navigation a{
+    color: darkred;
+    text-decoration: underline;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
 /* menu */
 .menu {
     display: none;
@@ -521,6 +538,10 @@ footer {
 
     .linkText {
         font-size: 14px;
+    }
+
+    .navigation {
+        text-align: center;
     }
 
     .menu {
