@@ -29,6 +29,8 @@ body {
 
 h1 {
     font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 h2 {
@@ -271,6 +273,11 @@ footer {
 }
 
 .photoIDModal {
+    width: 100%;
+}
+
+.articleImage {
+    margin-top: 15px;
     width: 100%;
 }
 
