@@ -239,12 +239,17 @@ footer {
 }
 
 .mainPhotoWrap {
+    column-count: 2;
+    column-gap: 0;
+}
+
+.mainPhotoWrap-one {
     display: flex;
-    margin-bottom: 30px;
+    width: 50%;
 }
 
 .image-container {
-    width: 50%;
+    min-width: 50%;
     cursor: pointer;
 }
 
@@ -252,8 +257,12 @@ footer {
     max-width: 60%;
 }
 
+.modal-lg-vertical {
+    max-width: 35%;
+}
+
 .photo {
-    width: 90%;
+    width: 93%;
 }
 
 .photoText {
@@ -261,6 +270,7 @@ footer {
     font-size: 14px;
     text-align: center;
     margin-top: 5px;
+    margin-bottom: 25px;
     color: #3a1700;
 }
 
@@ -514,8 +524,13 @@ footer {
     }
 
     .mainPhotoWrap {
+        display: flex;
         flex-direction: column;
         margin-bottom: 0;
+    }
+
+    .mainPhotoWrap-one {
+        width: 100%;
     }
 
     .image-container {
