@@ -382,7 +382,7 @@ footer {
     text-align: left;
 }
 
-.navigation a{
+.navigation a {
     color: darkred;
     text-decoration: underline;
     margin-left: 4px;
@@ -449,6 +449,10 @@ footer {
 .articleList {
     text-decoration: none;
     font-size: 15px;
+}
+
+.articleList:hover {
+    text-decoration: underline;
 }
 
 /* menu end */
