@@ -238,6 +238,10 @@ footer {
     text-align: justify;
 }
 
+.textCenter {
+    text-align: center;
+}
+
 .mainTextList {
     padding-top: 10px;
     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
@@ -503,6 +507,10 @@ footer {
     .imageMainPage {
         width: 140px;
         margin-top: 30px;
+    }
+
+    .imageTeacher {
+        width: 100%;
     }
 
     .imageStudyWrap {
