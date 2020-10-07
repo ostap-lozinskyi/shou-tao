@@ -190,6 +190,11 @@ footer {
     margin-top: 80px;
 }
 
+.imageTeacher {
+    margin-top: 20px;
+    width: 80%;
+}
+
 .imageStudyWrap {
     display: flex;
     flex-direction: row;
