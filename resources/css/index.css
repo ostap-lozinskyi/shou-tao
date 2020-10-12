@@ -576,6 +576,7 @@ footer {
     }
 
     .mapMini {
+        margin-top: 10px;
         display: inherit;
     }
 
