@@ -479,6 +479,10 @@ footer {
     .modal-lg {
         max-width: 95%;
     }
+
+    .modal-lg-vertical {
+        max-width: 95%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -487,6 +491,10 @@ footer {
     }
 
     .modal-lg {
+        max-width: 99%;
+    }
+
+    .modal-lg-vertical {
         max-width: 99%;
     }
 }
@@ -564,6 +572,10 @@ footer {
     }
 
     .modal-lg {
+        max-width: 100%;
+    }
+
+    .modal-lg-vertical {
         max-width: 100%;
     }
 
