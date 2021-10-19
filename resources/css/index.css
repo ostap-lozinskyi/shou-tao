@@ -305,6 +305,11 @@ footer {
     width: 100%;
 }
 
+.articleTwoImages {
+    margin-top: 15px;
+    width: 49%;
+}
+
 .linksWrap {
     display: flex;
     flex-direction: column;
@@ -607,6 +612,11 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .articleTwoImages {
+        margin-top: 15px;
+        width: 100%;
     }
 
 }
