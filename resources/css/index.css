@@ -226,6 +226,14 @@ footer {
     color: darkred;
 }
 
+.trainingCategory {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: darkred;
+}
+
 .mainTextWrap {
     z-index: 100;
 }
