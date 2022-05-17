@@ -109,7 +109,7 @@ footer {
 
 .headerTopItem {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: 10px;
     z-index: 100;
@@ -429,7 +429,7 @@ footer {
 }
 
 .headerImage {
-    width: 40px;
+    width: 30px;
 }
 
 /* menu */
