@@ -246,6 +246,7 @@ footer {
     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 1px;
     color: darkred;
 }
@@ -256,9 +257,9 @@ footer {
     text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
-    border: #3a1700 solid;
+    border: #3a1700 solid 3px;
     border-radius: 5px;
-    padding: 0 10px 3px 10px;
+    padding: 1px 10px 3px 10px;
 }
 
 .detailsButton:hover {
@@ -572,8 +573,8 @@ footer {
     }
 
     .imageMainPage {
-        width: 125px;
-        margin-top: 30px;
+        width: 100px;
+        margin-top: 70px;
     }
 
     .imageTeacher {
