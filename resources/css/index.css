@@ -224,16 +224,12 @@ footer a{
     margin-bottom: 50px;
 }
 
-.imageStudyWrap a {
-    text-decoration: underline;
-}
-
 .imageStudyWrap a:hover {
     text-decoration: none;
 }
 
 .imageStudy {
-    width: 50px;
+    width: 47px;
     margin-top: 30px;
 }
 
