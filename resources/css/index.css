@@ -250,6 +250,22 @@ footer {
     color: darkred;
 }
 
+.detailsButton {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: #3a1700 solid;
+    border-radius: 5px;
+    padding: 0 10px 3px 10px;
+}
+
+.detailsButton:hover {
+    background-color: tan;
+    color: #3a1700;
+}
+
 .mainTextWrap {
     z-index: 100;
 }
