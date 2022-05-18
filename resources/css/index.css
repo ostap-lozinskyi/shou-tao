@@ -39,6 +39,7 @@ h2 {
 
 a {
     color: #3a1700;
+    text-decoration: none;
 }
 
 a:hover {
@@ -70,6 +71,10 @@ footer {
     color: white;
     text-align: center;
     font-family: "Times New Roman", serif;
+}
+
+footer a{
+    color: white;
 }
 
 .languageSwitch {
@@ -215,7 +220,7 @@ footer {
 .imageStudyWrap {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -238,8 +243,11 @@ footer {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 1px;
     color: darkred;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .trainingCategory {
@@ -580,10 +588,6 @@ footer {
 
     .imageTeacher {
         width: 100%;
-    }
-
-    .imageStudyWrap {
-        flex-direction: column;
     }
 
     .imageStudy {
