@@ -471,7 +471,8 @@ footer {
     width: 30px;
     height: 17px;
     background: url("../../resources/images/menu.png");
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .menu-close {
@@ -574,7 +575,7 @@ footer {
 
     .imageMainPage {
         width: 100px;
-        margin-top: 70px;
+        margin-top: 30px;
     }
 
     .imageTeacher {
