@@ -470,6 +470,10 @@ footer a{
     width: 30px;
 }
 
+.addressImage {
+    width: 15px;
+}
+
 /* menu */
 .menu {
     display: none;
