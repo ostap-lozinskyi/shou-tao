@@ -78,7 +78,7 @@ footer {
     font-family: "Times New Roman", serif;
 }
 
-footer a{
+footer a {
     color: white;
 }
 
@@ -648,6 +648,10 @@ footer a{
 
     .mainText {
         width: 100%;
+    }
+
+    .noWrap {
+        white-space: nowrap
     }
 
     .mainPhotoWrap {
