@@ -277,6 +277,7 @@ footer a {
     border: #3a1700 solid 3px;
     border-radius: 5px;
     padding: 1px 10px 3px 10px;
+    background-color: burlywood;
 }
 
 .detailsButton:hover {
@@ -292,7 +293,7 @@ footer a {
     width: 100%;
     padding-top: 10px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     text-align: justify;
 }
@@ -301,7 +302,7 @@ footer a {
     width: 100%;
     padding-top: 10px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
 }
@@ -310,7 +311,7 @@ footer a {
     width: 100%;
     padding-top: 10px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     text-align: left;
 }
