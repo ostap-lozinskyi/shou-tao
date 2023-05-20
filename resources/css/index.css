@@ -225,9 +225,9 @@ footer a {
     margin-top: 15px;
 }
 
-.imageTeacher {
+.activityImage {
     margin-top: 20px;
-    width: 80%;
+    width: 60%;
 }
 
 .imageStudyWrap {
@@ -619,7 +619,7 @@ footer a {
         margin-top: 60px;
     }
 
-    .imageTeacher {
+    .activityImage {
         width: 100%;
     }
 
