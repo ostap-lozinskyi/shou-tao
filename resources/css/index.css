@@ -230,6 +230,11 @@ footer a {
     width: 60%;
 }
 
+.activityImagePreview {
+    margin-top: 20px;
+    width: 40%;
+}
+
 .imageStudyWrap {
     display: flex;
     flex-direction: row;
@@ -620,6 +625,10 @@ footer a {
     }
 
     .activityImage {
+        width: 100%;
+    }
+
+    .activityImagePreview {
         width: 100%;
     }
 
