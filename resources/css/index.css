@@ -31,7 +31,7 @@ h1 {
     font-size: 30px;
     margin-right: 10px;
     margin-left: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -237,7 +237,7 @@ footer a {
 }
 
 .activityImagePreview {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 40%;
 }
 
@@ -294,6 +294,11 @@ footer a {
 .detailsButton:hover {
     background-color: tan;
     color: #3a1700;
+}
+
+.detailsButtonContainer{
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .mainTextWrap {
