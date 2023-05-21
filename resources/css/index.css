@@ -73,6 +73,7 @@ footer {
     height: 80px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 20px;
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -83,7 +84,7 @@ footer a {
 }
 
 .footerText{
-    margin: 5px;
+    padding: 5px;
 }
 
 .underlineBold {
@@ -726,6 +727,14 @@ footer a {
     .articleTwoImages {
         margin-top: 15px;
         width: 100%;
+    }
+
+    footer{
+        height: 120px;
+    }
+
+    .footerText{
+        padding: 10px;
     }
 
 }
