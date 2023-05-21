@@ -70,7 +70,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-image: url("../../resources/images/footer.png");
-    height: 70px;
+    height: 80px;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
@@ -80,6 +80,10 @@ footer {
 
 footer a {
     color: white;
+}
+
+.footerText{
+    margin: 5px;
 }
 
 .underlineBold {
@@ -231,7 +235,7 @@ footer a {
 }
 
 .activityImagePreview {
-    margin-top: 40px;
+    margin-top: 50px;
     width: 40%;
 }
 
