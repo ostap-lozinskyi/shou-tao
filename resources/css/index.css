@@ -231,7 +231,7 @@ footer a {
 }
 
 .activityImagePreview {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 40%;
 }
 
@@ -279,9 +279,9 @@ footer a {
     text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
-    border: #3a1700 solid 3px;
+    border: #3a1700 solid 2px;
     border-radius: 5px;
-    padding: 1px 10px 3px 10px;
+    padding: 6px 10px 10px 10px;
     background-color: burlywood;
 }
 
