@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 40px;
@@ -606,6 +606,10 @@ footer a {
 }
 
 @media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
     .header {
         display: none;
     }
