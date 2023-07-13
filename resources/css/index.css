@@ -632,7 +632,8 @@ footer a {
 
     .imageMainPage {
         width: 100px;
-        margin-top: 60px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     .activityImage {
