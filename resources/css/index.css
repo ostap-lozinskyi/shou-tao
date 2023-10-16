@@ -570,6 +570,10 @@ footer a {
     text-decoration: underline;
 }
 
+.redColor {
+    color: darkred;
+}
+
 /* menu end */
 
 
