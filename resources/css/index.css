@@ -127,6 +127,30 @@ footer a {
     height: 70px;
 }
 
+.h1_main {
+    /*font-family: 'PresentScript Cyrillic', serif;*/
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: darkred;
+    font-size: 35px;
+}
+
+.h1_main_presentScript {
+    font-family: 'PresentScript Cyrillic', serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #3a1700;
+}
+
+.h1_main_presentScript a {
+    text-decoration: none;
+    color: darkred;
+}
+
 .headerTopItem {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -141,9 +165,10 @@ footer a {
 
 .headerItem {
     font-family: 'PresentScript Cyrillic', serif;
-    font-size: 27px;
+    font-size: 30px;
     text-align: center;
-    margin: 10px;
+    font-weight: normal;
+    margin-bottom: 30px;
     z-index: 100;
 }
 
@@ -154,20 +179,6 @@ footer a {
 
 .headerItem a:hover {
     text-decoration: underline;
-}
-
-.presentScript {
-    font-family: 'PresentScript Cyrillic', serif;
-    font-weight: normal;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: #3a1700;
-}
-
-.presentScript a {
-    text-decoration: none;
-    color: darkred;
 }
 
 .linkTextPresentScript {
@@ -224,11 +235,6 @@ footer a {
     background-position: right;
     background-size: contain;
     height: 500px;
-}
-
-.imageMainPage {
-    width: 140px;
-    margin-top: 15px;
 }
 
 .activityImage {
@@ -499,14 +505,14 @@ footer a {
     display: none;
     background: #f2f2ef;
     position: absolute;
-    left: 2%;
-    right: 2%;
-    top: 36px;
+    left: 0;
+    right: 0;
+    top: 6px;
     padding: 30px;
     z-index: 9999;
-    opacity: 0.95;
-    border-radius: 18px;
-    border: 1px solid #664d46;
+    /*opacity: 0.95;*/
+    /*border-radius: 18px;*/
+    /*border: 1px solid #664d46;*/
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -586,6 +592,15 @@ footer a {
         font-size: 30px;
     }
 
+    .h1_main_presentScript {
+        margin-bottom: 100px;
+        color: #3a1700;
+    }
+
+    .trainingCategory {
+        margin-bottom: 100px;
+    }
+
     .header {
         display: none;
     }
@@ -608,12 +623,6 @@ footer a {
 
     .mainBlocks {
         flex-direction: column;
-    }
-
-    .imageMainPage {
-        width: 100px;
-        margin-top: 10px;
-        margin-bottom: 50px;
     }
 
     .activityImage {
@@ -659,6 +668,7 @@ footer a {
     .mainPhotoWrap {
         display: flex;
         flex-direction: column;
+        margin-top: 60px;
         margin-bottom: 0;
     }
 
