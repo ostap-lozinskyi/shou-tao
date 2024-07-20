@@ -134,7 +134,7 @@ footer a {
     margin-top: 30px;
     margin-bottom: 50px;
     color: darkred;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .h1_main_presentScript {
@@ -149,6 +149,11 @@ footer a {
 .h1_main_presentScript a {
     text-decoration: none;
     color: darkred;
+}
+
+.h2_presentScript {
+    font-family: 'PresentScript Cyrillic', serif;
+    margin-top: 40px;
 }
 
 .headerTopItem {
@@ -168,6 +173,7 @@ footer a {
     font-size: 30px;
     text-align: center;
     font-weight: normal;
+    margin-right: 10px;
     margin-bottom: 30px;
     z-index: 100;
 }
@@ -367,6 +373,7 @@ footer a {
 
 .photo {
     width: 93%;
+    backdrop-filter: blur(15px);
 }
 
 .photoText {
@@ -668,7 +675,7 @@ footer a {
     .mainPhotoWrap {
         display: flex;
         flex-direction: column;
-        margin-top: 60px;
+        margin-top: 40px;
         margin-bottom: 0;
     }
 
