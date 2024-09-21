@@ -5,10 +5,10 @@
 
 @font-face {
     font-family: PresentScript Cyrillic;
-    src: url(../../resources/font/PresentScript-Cyrillic.ttf);
-    src: url(../../resources/font/PresentScript-Cyrillic.eot) format('embedded-opentype'),
-    url(../../resources/font/PresentScript-Lozinskyi.woff) format('woff'),
-    url(../../resources/font/PresentScript-Cyrillic.svg) format('svg');
+    src: url(../../resources/font/PresentScript.ttf);
+    /*src: url(../../resources/font/PresentScript-Cyrillic.eot) format('embedded-opentype'),*/
+    /*url(../../resources/font/PresentScript-Lozinskyi.woff) format('woff'),*/
+    /*url(../../resources/font/PresentScript-Cyrillic.svg) format('svg');*/
 }
 
 body {
@@ -172,15 +172,15 @@ footer a {
     font-family: 'PresentScript Cyrillic', serif;
     font-size: 30px;
     text-align: center;
-    font-weight: normal;
-    margin-right: 10px;
+    font-weight: bold;
+    margin-right: 30px;
     margin-bottom: 30px;
     z-index: 100;
 }
 
 .headerItem a {
     text-decoration: none;
-    color: darkred;
+    color: #3a1700;
 }
 
 .headerItem a:hover {
@@ -610,6 +610,11 @@ footer a {
 
     .header {
         display: none;
+    }
+
+    .headerItem {
+        color: #3a1700;
+        margin-right: 0;
     }
 
     .headerItem a {
