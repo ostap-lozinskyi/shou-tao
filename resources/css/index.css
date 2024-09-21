@@ -374,6 +374,8 @@ footer a {
 .photo {
     width: 93%;
     backdrop-filter: blur(15px);
+    margin-top: 10px;
+    margin-bottom: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -384,6 +386,7 @@ footer a {
     margin-top: 5px;
     margin-bottom: 25px;
     color: #3a1700;
+    text-decoration: underline;
 }
 
 .photoTextModal {
@@ -616,7 +619,7 @@ footer a {
     .headerItem {
         color: #3a1700;
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .headerItem a {
@@ -682,7 +685,7 @@ footer a {
     .mainPhotoWrap {
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
