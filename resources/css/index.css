@@ -505,7 +505,7 @@ footer a {
     display: block;
     width: 28px;
     height: 28px;
-    background: url("../../resources/images/close.png");
+    background: url("../../resources/images/close.svg");
     position: absolute;
     right: 20px;
     top: 20px;
