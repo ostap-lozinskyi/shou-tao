@@ -221,7 +221,7 @@ footer a {
 
 .pageTop {
     background-image: url("../../resources/images/header.png");
-    height: 39px;
+    height: 38px;
     margin-bottom: -1px;
 }
 
@@ -278,6 +278,7 @@ footer a {
 .activityImagePreview {
     margin-top: 70px;
     width: 40%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .imageStudyWrap {
@@ -328,6 +329,7 @@ footer a {
     /*border-radius: 5px;*/
     padding: 6px 10px 10px 10px;
     background-color: burlywood;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .detailsButton:hover {
@@ -631,7 +633,7 @@ footer a {
     }
 
     .h1_main_presentScript {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         color: #3a1700;
     }
 
