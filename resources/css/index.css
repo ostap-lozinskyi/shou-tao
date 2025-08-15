@@ -128,7 +128,6 @@ footer a {
 }
 
 .h1_main {
-    /*font-family: 'PresentScript Cyrillic', serif;*/
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
@@ -144,6 +143,8 @@ footer a {
     margin-top: 30px;
     margin-bottom: 20px;
     color: #3a1700;
+    line-height: 36px;
+    letter-spacing: 2px;
 }
 
 .h1_main_presentScript a {
@@ -164,6 +165,7 @@ footer a {
     font-size: 30px;
     line-height: 36px;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .headerTopItem {
