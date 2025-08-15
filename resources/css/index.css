@@ -681,6 +681,10 @@ footer a {
         width: 100%;
     }
 
+    .mainText_UL {
+        width: 95%;
+    }
+
     .noWrap {
         white-space: nowrap
     }
