@@ -161,7 +161,8 @@ footer a {
     margin-top: 40px;
     margin-bottom: 70px;
     color: #3a1700;
-    font-size: 24px;
+    font-size: 28px;
+    line-height: 35px;
 }
 
 .headerTopItem {
@@ -178,9 +179,9 @@ footer a {
 
 .headerItem {
     font-family: 'PresentScript Cyrillic', serif;
-    font-size: 22px;
-    text-align: left;
-    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
     margin-right: 30px;
     margin-bottom: 30px;
     z-index: 100;
@@ -195,8 +196,18 @@ footer a {
     text-decoration: underline;
 }
 
-.headerItem img {
-    width: 13px;
+.headerMobileItem {
+    font-family: 'PresentScript Cyrillic', serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: normal;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    z-index: 100;
+}
+
+.headerMobileItem img {
+    width: 15px;
     margin-right: 7px;
 }
 
@@ -542,7 +553,7 @@ footer a {
 
 .menu-popup ul {
     padding: 0;
-    margin: 0 0 200px 0;
+    margin: 0 0 100px 0;
 }
 
 .menu-popup li {
