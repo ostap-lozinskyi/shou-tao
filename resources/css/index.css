@@ -154,6 +154,13 @@ footer a {
     align-items: center;
 }
 
+.headerContacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;
