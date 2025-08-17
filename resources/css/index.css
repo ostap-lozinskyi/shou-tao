@@ -27,6 +27,16 @@ body {
     opacity: 1;
 }
 
+.displayFlex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.displayFlex_row {
+    display: flex;
+    flex-direction: row;
+}
+
 h1 {
     font-size: 40px;
     margin-right: 10px;
@@ -251,8 +261,6 @@ footer a {
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     background-image: url("../../resources/images/layer.png");
