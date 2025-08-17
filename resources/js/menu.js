@@ -13,7 +13,7 @@ $(function () {
     });
 
     $(document).on('click', function (e) {
-        if (!$(e.target).closest('.menu').length) {
+        if (!$(e.target).closest('.menuMobile').length) {
             $('body').removeClass('body_pointer');
             $menu_popup.slideUp(300);
         }

@@ -147,7 +147,7 @@ footer a {
     color: black;
 }
 
-.headerTop {
+.headerMobile {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -556,8 +556,7 @@ footer a {
     width: 15px;
 }
 
-/* menu */
-.menu {
+.menuMobile {
     display: none;
 }
 
@@ -697,7 +696,7 @@ footer a {
         text-decoration: none;
     }
 
-    .headerTop {
+    .headerMobile {
         justify-content: space-around;
     }
 
@@ -806,7 +805,7 @@ footer a {
         text-align: center;
     }
 
-    .menu {
+    .menuMobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
