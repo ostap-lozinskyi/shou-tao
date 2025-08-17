@@ -261,12 +261,6 @@ footer a {
     font-size: 24px;
 }
 
-.pageTop {
-    background-image: url("../../resources/images/header.png");
-    height: 38px;
-    margin-bottom: -1px;
-}
-
 .main {
     justify-content: space-between;
     width: 100%;
