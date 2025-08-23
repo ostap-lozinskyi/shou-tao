@@ -353,6 +353,12 @@ footer a {
     color: darkred;
 }
 
+.announcement {
+    border: 15px solid rgba(222, 184, 135, .4);
+    background: rgba(222, 184, 135, .5);
+    border-radius: 15px;
+}
+
 .detailsButton {
     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -809,5 +815,9 @@ footer a {
     .articleTwoImages {
         margin-top: 15px;
         width: 100%;
+    }
+
+    .announcement {
+        margin-top: 110px;
     }
 }
