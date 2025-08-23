@@ -673,6 +673,10 @@ footer a {
         font-size: 30px;
     }
 
+    .h1_main {
+        font-size: 20px;
+    }
+
     .h1_main_presentScript {
         margin-bottom: 50px;
         color: #3a1700;
