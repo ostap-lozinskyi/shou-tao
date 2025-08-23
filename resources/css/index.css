@@ -6,9 +6,11 @@
 @font-face {
     font-family: PresentScript Cyrillic;
     src: url(../../resources/font/PresentScript.ttf);
-    /*src: url(../../resources/font/PresentScript-Cyrillic.eot) format('embedded-opentype'),*/
-    /*url(../../resources/font/PresentScript-Lozinskyi.woff) format('woff'),*/
-    /*url(../../resources/font/PresentScript-Cyrillic.svg) format('svg');*/
+}
+
+@font-face {
+    font-family: Greenth Grunge;
+    src: url(../../resources/font/Greenth_Grunge.otf);
 }
 
 body {
@@ -170,12 +172,14 @@ footer a {
 }
 
 .h1_main {
-    font-weight: bold;
+    font-family: 'Greenth Grunge', serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 50px;
     color: #3a1700;
     font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 40px;
 }
 
 .h1_main_presentScript {
